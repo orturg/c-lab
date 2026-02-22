@@ -1,0 +1,71 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Lab1/1.0.0": {
+        "dependencies": {
+          "Lab1.Services": "1.0.0"
+        },
+        "runtime": {
+          "Lab1.dll": {}
+        }
+      },
+      "Lab1.Models/1.0.0": {
+        "runtime": {
+          "Lab1.Models.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Lab1.Services/1.0.0": {
+        "dependencies": {
+          "Lab1.ViewModels": "1.0.0"
+        },
+        "runtime": {
+          "Lab1.Services.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Lab1.ViewModels/1.0.0": {
+        "dependencies": {
+          "Lab1.Models": "1.0.0"
+        },
+        "runtime": {
+          "Lab1.ViewModels.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lab1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Lab1.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Lab1.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Lab1.ViewModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+/Users/arturnozhenko/RiderProjects/Lab1/Lab1.ViewModels/bin/Debug/net10.0/Lab1.ViewModels.deps.json
+/Users/arturnozhenko/RiderProjects/Lab1/Lab1.ViewModels/bin/Debug/net10.0/Lab1.ViewModels.dll
+/Users/arturnozhenko/RiderProjects/Lab1/Lab1.ViewModels/bin/Debug/net10.0/Lab1.ViewModels.pdb
+/Users/arturnozhenko/RiderProjects/Lab1/Lab1.ViewModels/bin/Debug/net10.0/Lab1.Models.dll
+/Users/arturnozhenko/RiderProjects/Lab1/Lab1.ViewModels/bin/Debug/net10.0/Lab1.Models.pdb
+/Users/arturnozhenko/RiderProjects/Lab1/Lab1.ViewModels/obj/Debug/net10.0/Lab1.ViewModels.csproj.AssemblyReference.cache
+/Users/arturnozhenko/RiderProjects/Lab1/Lab1.ViewModels/obj/Debug/net10.0/Lab1.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+/Users/arturnozhenko/RiderProjects/Lab1/Lab1.ViewModels/obj/Debug/net10.0/Lab1.ViewModels.AssemblyInfoInputs.cache
+/Users/arturnozhenko/RiderProjects/Lab1/Lab1.ViewModels/obj/Debug/net10.0/Lab1.ViewModels.AssemblyInfo.cs
+/Users/arturnozhenko/RiderProjects/Lab1/Lab1.ViewModels/obj/Debug/net10.0/Lab1.ViewModels.csproj.CoreCompileInputs.cache
+/Users/arturnozhenko/RiderProjects/Lab1/Lab1.ViewModels/obj/Debug/net10.0/Lab1.Vie.5BE8387F.Up2Date
+/Users/arturnozhenko/RiderProjects/Lab1/Lab1.ViewModels/obj/Debug/net10.0/Lab1.ViewModels.dll
+/Users/arturnozhenko/RiderProjects/Lab1/Lab1.ViewModels/obj/Debug/net10.0/refint/Lab1.ViewModels.dll
+/Users/arturnozhenko/RiderProjects/Lab1/Lab1.ViewModels/obj/Debug/net10.0/Lab1.ViewModels.pdb
+/Users/arturnozhenko/RiderProjects/Lab1/Lab1.ViewModels/obj/Debug/net10.0/ref/Lab1.ViewModels.dll
