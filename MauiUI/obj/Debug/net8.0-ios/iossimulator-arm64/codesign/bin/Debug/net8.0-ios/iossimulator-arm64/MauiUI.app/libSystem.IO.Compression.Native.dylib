@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - /Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/MauiUI/bin/Debug/net8.0-ios/iossimulator-arm64/MauiUI.app/libSystem.IO.Compression.Native.dylib

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Lab1.ViewModels</name>
+    </assembly>
+    <members>
+        <member name="T:Lab1.ViewModels.ProductViewModel">
+            <summary>
+            ViewModel для товару, відповідає за відображення, створення та редагування товару
+            </summary>
+        </member>
+        <member name="T:Lab1.ViewModels.WarehouseViewModel">
+            <summary>
+            ViewModel для складу, відповідає за відображення, створення та редагування складу
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiUI.Pages.WarehouseDetailPage"
+             Title="Деталі складу">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="16,12" Spacing="4">
+
+            <Label x:Name="WarehouseNameLabel" FontSize="18" FontAttributes="Bold" />
+            <Label x:Name="WarehouseLocationLabel" FontSize="14" />
+            <Label x:Name="WarehouseTotalLabel" FontSize="14" />
+
+            <BoxView HeightRequest="1" Color="LightGray" Margin="0,12" />
+
+            <Label Text="Товари" FontSize="16" FontAttributes="Bold" Margin="0,0,0,4" />
+
+            <CollectionView x:Name="ProductsCollection"
+                            SelectionMode="Single"
+                            SelectionChanged="OnProductSelected">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <VerticalStackLayout Padding="0,10" Spacing="2">
+                            <Grid ColumnDefinitions="*,Auto">
+                                <Label Grid.Column="0" Text="{Binding Name}" FontSize="15" FontAttributes="Bold" />
+                                <Label Grid.Column="1" Text="{Binding UnitPrice, StringFormat='{0:N2} грн'}" FontSize="15" />
+                            </Grid>
+                            <Grid ColumnDefinitions="*,Auto">
+                                <Label Grid.Column="0" Text="{Binding CategoryDisplay}" FontSize="13" />
+                                <Label Grid.Column="1" Text="{Binding Quantity, StringFormat='{0} шт.'}" FontSize="13" />
+                            </Grid>
+                            <BoxView HeightRequest="1" Color="LightGray" Margin="0,8,0,0" />
+                        </VerticalStackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

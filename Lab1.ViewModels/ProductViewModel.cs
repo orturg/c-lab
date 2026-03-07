@@ -42,6 +42,8 @@ public class ProductViewModel
         get => _model.Description;
         set => _model.Description = value;
     }
+    public string CategoryDisplay => CategoryToUkrainian(Category);
+
     public decimal TotalValue => UnitPrice * Quantity;
     public ProductViewModel(ProductModel model)
     {

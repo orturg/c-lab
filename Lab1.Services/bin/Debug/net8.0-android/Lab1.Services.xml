@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Lab1.Services</name>
+    </assembly>
+    <members>
+        <member name="T:Lab1.Services.FakeStorage">
+            <summary>
+            Клас штучного зберігання, що імітує базу даних під час розробки та тестування
+            </summary>
+        </member>
+        <member name="T:Lab1.Services.IWarehouseService">
+            <summary>
+            Інтерфейс сервісу для роботи зі складом та товарами
+            </summary>
+        </member>
+        <member name="T:Lab1.Services.WarehouseService">
+            <summary>
+            Сервіс роботи зі штучною бд
+            </summary>
+        </member>
+    </members>
+</doc>

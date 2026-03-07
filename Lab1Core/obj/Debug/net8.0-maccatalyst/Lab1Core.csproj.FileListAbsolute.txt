@@ -1,0 +1,36 @@
+/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1Core/bin/Debug/net8.0-maccatalyst/Lab1Core.dll
+/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1Core/bin/Debug/net8.0-maccatalyst/Lab1Core.pdb
+/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1Core/obj/Debug/net8.0-maccatalyst/actool/_PartialAppManifest.items
+/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1Core/obj/Debug/net8.0-maccatalyst/actool/_BundleResourceWithLogicalName.items
+/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1Core/obj/Debug/net8.0-maccatalyst/actool/_ProcessedImageAssetsPath.items
+/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1Core/obj/Debug/net8.0-maccatalyst/coremlc/_PartialAppManifest.items
+/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1Core/obj/Debug/net8.0-maccatalyst/coremlc/_BundleResourceWithLogicalName.items
+/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1Core/obj/Debug/net8.0-maccatalyst/coremlc/_ProcessedCoreMLModelsPath.items
+/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1Core/obj/Debug/net8.0-maccatalyst/_ProcessedBundleResourcesPath.items
+/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1Core/obj/Debug/net8.0-maccatalyst/_ProcessedContentPath.items
+/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1Core/obj/Debug/net8.0-maccatalyst/Lab1Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1Core/obj/Debug/net8.0-maccatalyst/Lab1Core.AssemblyInfoInputs.cache
+/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1Core/obj/Debug/net8.0-maccatalyst/Lab1Core.AssemblyInfo.cs
+/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1Core/obj/Debug/net8.0-maccatalyst/Lab1Core.csproj.CoreCompileInputs.cache
+/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1Core/obj/Debug/net8.0-maccatalyst/Lab1Core.dll
+/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1Core/obj/Debug/net8.0-maccatalyst/refint/Lab1Core.dll
+/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1Core/obj/Debug/net8.0-maccatalyst/Lab1Core.pdb
+/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1Core/obj/Debug/net8.0-maccatalyst/ref/Lab1Core.dll
+/Users/arturnozhenko/Desktop/Lab1/Lab1Core/bin/Debug/net8.0-maccatalyst/Lab1Core.dll
+/Users/arturnozhenko/Desktop/Lab1/Lab1Core/bin/Debug/net8.0-maccatalyst/Lab1Core.pdb
+/Users/arturnozhenko/Desktop/Lab1/Lab1Core/obj/Debug/net8.0-maccatalyst/actool/_PartialAppManifest.items
+/Users/arturnozhenko/Desktop/Lab1/Lab1Core/obj/Debug/net8.0-maccatalyst/actool/_BundleResourceWithLogicalName.items
+/Users/arturnozhenko/Desktop/Lab1/Lab1Core/obj/Debug/net8.0-maccatalyst/actool/_ProcessedImageAssetsPath.items
+/Users/arturnozhenko/Desktop/Lab1/Lab1Core/obj/Debug/net8.0-maccatalyst/coremlc/_PartialAppManifest.items
+/Users/arturnozhenko/Desktop/Lab1/Lab1Core/obj/Debug/net8.0-maccatalyst/coremlc/_BundleResourceWithLogicalName.items
+/Users/arturnozhenko/Desktop/Lab1/Lab1Core/obj/Debug/net8.0-maccatalyst/coremlc/_ProcessedCoreMLModelsPath.items
+/Users/arturnozhenko/Desktop/Lab1/Lab1Core/obj/Debug/net8.0-maccatalyst/_ProcessedBundleResourcesPath.items
+/Users/arturnozhenko/Desktop/Lab1/Lab1Core/obj/Debug/net8.0-maccatalyst/_ProcessedContentPath.items
+/Users/arturnozhenko/Desktop/Lab1/Lab1Core/obj/Debug/net8.0-maccatalyst/Lab1Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/arturnozhenko/Desktop/Lab1/Lab1Core/obj/Debug/net8.0-maccatalyst/Lab1Core.AssemblyInfoInputs.cache
+/Users/arturnozhenko/Desktop/Lab1/Lab1Core/obj/Debug/net8.0-maccatalyst/Lab1Core.AssemblyInfo.cs
+/Users/arturnozhenko/Desktop/Lab1/Lab1Core/obj/Debug/net8.0-maccatalyst/Lab1Core.csproj.CoreCompileInputs.cache
+/Users/arturnozhenko/Desktop/Lab1/Lab1Core/obj/Debug/net8.0-maccatalyst/Lab1Core.dll
+/Users/arturnozhenko/Desktop/Lab1/Lab1Core/obj/Debug/net8.0-maccatalyst/refint/Lab1Core.dll
+/Users/arturnozhenko/Desktop/Lab1/Lab1Core/obj/Debug/net8.0-maccatalyst/Lab1Core.pdb
+/Users/arturnozhenko/Desktop/Lab1/Lab1Core/obj/Debug/net8.0-maccatalyst/ref/Lab1Core.dll

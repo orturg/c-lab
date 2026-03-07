@@ -5,7 +5,7 @@ namespace Lab1.Services;
 /// <summary>
 /// Сервіс роботи зі штучною бд
 /// </summary>
-public class WarehouseService
+public class WarehouseService : IWarehouseService
 {
     public List<WarehouseViewModel> GetAllWarehouses()
     {

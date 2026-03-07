@@ -1,5 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# 
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1", "Lab1\Lab1.csproj", "{7E928885-52E8-4CF2-B1A8-65DB90FC1B43}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1.Models", "Lab1.Models\Lab1.Models.csproj", "{DDAA733C-D5EB-4D6C-ABDC-4FE8F6F7E8AF}"
@@ -7,6 +8,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1.Services", "Lab1.Services\Lab1.Services.csproj", "{F499A321-ADE4-41B7-89F3-941470B1FE96}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1.ViewModels", "Lab1.ViewModels\Lab1.ViewModels.csproj", "{75E0B8C1-0420-40A2-996D-7E63B587CBB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiUI", "MauiUI\MauiUI.csproj", "{3F5CC39D-7EBB-4114-9B16-EC39D3894DC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +33,9 @@ Global
 		{75E0B8C1-0420-40A2-996D-7E63B587CBB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75E0B8C1-0420-40A2-996D-7E63B587CBB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75E0B8C1-0420-40A2-996D-7E63B587CBB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F5CC39D-7EBB-4114-9B16-EC39D3894DC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F5CC39D-7EBB-4114-9B16-EC39D3894DC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F5CC39D-7EBB-4114-9B16-EC39D3894DC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F5CC39D-7EBB-4114-9B16-EC39D3894DC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

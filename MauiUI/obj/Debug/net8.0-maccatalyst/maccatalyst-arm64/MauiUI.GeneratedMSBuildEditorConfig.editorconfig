@@ -1,0 +1,65 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MauiUI
+build_property.ProjectDir = /Users/arturnozhenko/Desktop/Lab1/MauiUI/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[/Users/arturnozhenko/Desktop/Lab1/MauiUI/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiUI.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[/Users/arturnozhenko/Desktop/Lab1/MauiUI/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiUI.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[/Users/arturnozhenko/Desktop/Lab1/MauiUI/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiUI.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[/Users/arturnozhenko/Desktop/Lab1/MauiUI/Pages/ProductDetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiUI.Pages.ProductDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages/ProductDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages/ProductDetailPage.xaml
+
+[/Users/arturnozhenko/Desktop/Lab1/MauiUI/Pages/WarehouseDetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiUI.Pages.WarehouseDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages/WarehouseDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages/WarehouseDetailPage.xaml
+
+[/Users/arturnozhenko/Desktop/Lab1/MauiUI/Pages/WarehousesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiUI.Pages.WarehousesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages/WarehousesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages/WarehousesPage.xaml
+
+[/Users/arturnozhenko/Desktop/Lab1/MauiUI/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiUI.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+
+[/Users/arturnozhenko/Desktop/Lab1/MauiUI/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiUI.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml

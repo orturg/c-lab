@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MauiUI</name>
+    </assembly>
+    <members>
+        <member name="T:MauiUI.AppShell">
+            <summary>
+            Головна оболонка застосунку, яка відповідає за реєстраці маршрутів shell навігації
+            </summary>
+        </member>
+        <member name="T:MauiUI.MauiProgram">
+            <summary>
+            Точка входу maui
+            </summary>
+        </member>
+        <member name="T:MauiUI.Pages.ProductDetailPage">
+            <summary>
+            Сторінка товару, відображаються всі дані про товар
+            </summary>
+        </member>
+        <member name="T:MauiUI.Pages.WarehouseDetailPage">
+            <summary>
+            Сторінка деталей складу, відображає інформацію про склад та товари на складі
+            </summary>
+        </member>
+        <member name="T:MauiUI.Pages.WarehousesPage">
+            <summary>
+            Сторінка, що відображає список усіх складів
+            </summary>
+        </member>
+    </members>
+</doc>

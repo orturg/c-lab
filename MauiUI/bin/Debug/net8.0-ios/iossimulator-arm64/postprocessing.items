@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="MauiUI.app/MauiUI">
+      <IsAppExtension>false</IsAppExtension>
+      <BCSymbolMapName>MauiUI.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>MauiUI.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/MauiUI/obj/Debug/net8.0-ios/iossimulator-arm64/mtouch-symbols.list</SymbolFile>
+      <DSymName>MauiUI.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/MauiUI</SourceProjectPath>
+      <IsXPCService></IsXPCService>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

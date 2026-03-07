@@ -27,6 +27,8 @@ public class WarehouseViewModel
 
     public bool ProductsLoaded { get; private set; } = false;
 
+    public string LocationDisplay => LocationToUkrainian(Location);
+
     public decimal TotalValue => Products.Sum(p => p.TotalValue);
 
     public WarehouseViewModel(WarehouseModel model)

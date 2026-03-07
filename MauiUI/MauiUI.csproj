@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0-android;net8.0-maccatalyst</TargetFrameworks>
+    <UseMaui>true</UseMaui>
+    <SingleProject>true</SingleProject>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>MauiUI</RootNamespace>
+    <ApplicationId>com.arturnozhenko.MauiUI</ApplicationId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(TargetFramework)'=='net8.0-android'">
+    <SupportedOSPlatformVersion>21.0</SupportedOSPlatformVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Maui.Controls" Version="8.0.100" />
+    <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="8.0.100" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lab1Core\Lab1Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lab1.Services\Lab1.Services.csproj" />
+    <ProjectReference Include="..\Lab1.ViewModels\Lab1.ViewModels.csproj" />
+    <ProjectReference Include="..\Lab1.Models\Lab1.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <MauiIcon Include="Resources/AppIcon/appicon.svg"
+              ForegroundFile="Resources/AppIcon/appicon.svg" />
+  </ItemGroup>
+
+</Project>
