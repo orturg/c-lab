@@ -40,3 +40,4 @@
 /Users/arturnozhenko/Desktop/Lab1/Lab1.Services/obj/Debug/net8.0-android/stamp/_CleanIntermediateIfNeeded.stamp
 /Users/arturnozhenko/Desktop/Lab1/Lab1.Services/obj/Debug/net8.0-android/stamp/_ConvertResourcesCases.stamp
 /Users/arturnozhenko/Desktop/Lab1/Lab1.Services/obj/Debug/net8.0-android/stamp/_ResolveLibraryProjectImports.stamp
+/Users/arturnozhenko/Desktop/Lab1/Lab1.Services/obj/Debug/net8.0-android/Lab1.Services.sourcelink.json

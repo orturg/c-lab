@@ -20,3 +20,4 @@
 /Users/arturnozhenko/Desktop/Lab1/Lab1Core/obj/Debug/net8.0/refint/Lab1Core.dll
 /Users/arturnozhenko/Desktop/Lab1/Lab1Core/obj/Debug/net8.0/Lab1Core.pdb
 /Users/arturnozhenko/Desktop/Lab1/Lab1Core/obj/Debug/net8.0/ref/Lab1Core.dll
+/Users/arturnozhenko/Desktop/Lab1/Lab1Core/obj/Debug/net8.0/Lab1Core.sourcelink.json

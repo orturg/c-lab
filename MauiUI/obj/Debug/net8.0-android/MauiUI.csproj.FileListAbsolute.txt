@@ -1048,3 +1048,4 @@
 /Users/arturnozhenko/Desktop/Lab1/MauiUI/obj/Debug/net8.0-android/stamp/_GenerateJavaStubs.stamp
 /Users/arturnozhenko/Desktop/Lab1/MauiUI/obj/Debug/net8.0-android/stamp/_GeneratePackageManagerJava.stamp
 /Users/arturnozhenko/Desktop/Lab1/MauiUI/obj/Debug/net8.0-android/stamp/_ResolveLibraryProjectImports.stamp
+/Users/arturnozhenko/Desktop/Lab1/MauiUI/obj/Debug/net8.0-android/MauiUI.sourcelink.json
