@@ -1,5 +1,4 @@
-using Lab1.Services;
-using Lab1.ViewModels;
+using MauiUI.ViewModels;
 
 namespace MauiUI.Pages;
 
@@ -8,26 +7,9 @@ namespace MauiUI.Pages;
 /// </summary>
 public partial class WarehousesPage : ContentPage
 {
-    private readonly IWarehouseService _warehouseService;
-
-    public WarehousesPage(IWarehouseService warehouseService)
+    public WarehousesPage(WarehousesViewModel viewModel)
     {
         InitializeComponent();
-        _warehouseService = warehouseService;
-    }
-
-    protected override void OnAppearing()
-    {
-        base.OnAppearing();
-        WarehousesCollection.ItemsSource = _warehouseService.GetAllWarehouses();
-    }
-
-    private async void OnWarehouseSelected(object sender, SelectionChangedEventArgs e)
-    {
-        if (e.CurrentSelection.FirstOrDefault() is not WarehouseViewModel warehouse)
-            return;
-
-        ((CollectionView)sender).SelectedItem = null;
-        await Shell.Current.GoToAsync($"{nameof(WarehouseDetailPage)}?warehouseId={warehouse.Id}");
+        BindingContext = viewModel;
     }
 }

@@ -1,42 +1,85 @@
-using Lab1.ViewModels;
+using Lab1.Models.Enums;
+using Lab1.Repositories;
+using Lab1.Services.DTO;
 
 namespace Lab1.Services;
 
 /// <summary>
-/// Сервіс роботи зі штучною бд
+/// Сервіс для отримання та перетворення даних складів і товарів
 /// </summary>
-public class WarehouseService : IWarehouseService
+public class WarehouseService(IWarehouseRepository repository) : IWarehouseService
 {
-    public List<WarehouseViewModel> GetAllWarehouses()
-    {
-        return FakeStorage.Warehouses
-            .Select(model => new WarehouseViewModel(model))
+    public List<WarehouseListDto> GetAllWarehouses() =>
+        repository.GetAllWarehouses()
+            .Select(w => new WarehouseListDto
+            {
+                Id = w.Id,
+                Name = w.Name,
+                LocationDisplay = LocationToUkrainian(w.Location)
+            })
             .ToList();
-    }
-    
-    public WarehouseViewModel? GetWarehouseById(int id)
+
+    public WarehouseDetailDto? GetWarehouseById(int id)
     {
-        var model = FakeStorage.Warehouses.FirstOrDefault(w => w.Id == id);
-        return model is null ? null : new WarehouseViewModel(model);
-    }
-    
-    public void LoadProductsForWarehouse(WarehouseViewModel warehouse)
-    {
-        if (warehouse.ProductsLoaded) return;
-        
-        var products = FakeStorage.Products
-            .Where(p => p.WarehouseId == warehouse.Id)
-            .Select(p => new ProductViewModel(p))
+        var warehouse = repository.GetWarehouseById(id);
+        if (warehouse is null) return null;
+
+        var products = repository.GetProductsByWarehouseId(id)
+            .Select(p => new ProductListDto
+            {
+                Id = p.Id,
+                Name = p.Name,
+                CategoryDisplay = CategoryToUkrainian(p.Category),
+                Quantity = p.Quantity,
+                UnitPrice = p.UnitPrice
+            })
             .ToList();
-        
-        warehouse.LoadProducts(products);
+
+        return new WarehouseDetailDto
+        {
+            Id = warehouse.Id,
+            Name = warehouse.Name,
+            LocationDisplay = LocationToUkrainian(warehouse.Location),
+            TotalValue = products.Sum(p => p.UnitPrice * p.Quantity),
+            Products = products
+        };
     }
 
-    public List<ProductViewModel> GetProductsByWarehouseId(int warehouseId)
+    public ProductDetailDto? GetProductById(int warehouseId, int productId)
     {
-        return FakeStorage.Products
-            .Where(p => p.WarehouseId == warehouseId)
-            .Select(p => new ProductViewModel(p))
-            .ToList();
+        var product = repository.GetProductById(warehouseId, productId);
+        if (product is null) return null;
+
+        return new ProductDetailDto
+        {
+            Id = product.Id,
+            WarehouseId = product.WarehouseId,
+            Name = product.Name,
+            CategoryDisplay = CategoryToUkrainian(product.Category),
+            Quantity = product.Quantity,
+            UnitPrice = product.UnitPrice,
+            TotalValue = product.UnitPrice * product.Quantity,
+            Description = product.Description
+        };
     }
+
+    private static string LocationToUkrainian(WarehouseLocation location) => location switch
+    {
+        WarehouseLocation.Kyiv => "Київ",
+        WarehouseLocation.Lviv => "Львів",
+        WarehouseLocation.Odesa => "Одеса",
+        WarehouseLocation.Kharkiv => "Харків",
+        WarehouseLocation.Dnipro => "Дніпро",
+        _ => location.ToString()
+    };
+
+    private static string CategoryToUkrainian(ProductCategory category) => category switch
+    {
+        ProductCategory.Electronics => "Електроніка",
+        ProductCategory.Clothing => "Одяг",
+        ProductCategory.Food => "Продукти",
+        ProductCategory.Furniture => "Меблі",
+        ProductCategory.Tools => "Інструменти",
+        _ => category.ToString()
+    };
 }

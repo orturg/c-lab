@@ -12,17 +12,17 @@
           "bin/placeholder/Lab1.Models.dll": {}
         }
       },
-      "Lab1.ViewModels/1.0.0": {
+      "Lab1.Repositories/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Lab1.Models": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Lab1.ViewModels.dll": {}
+          "bin/placeholder/Lab1.Repositories.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Lab1.ViewModels.dll": {}
+          "bin/placeholder/Lab1.Repositories.dll": {}
         }
       }
     },
@@ -37,17 +37,17 @@
           "bin/placeholder/Lab1.Models.dll": {}
         }
       },
-      "Lab1.ViewModels/1.0.0": {
+      "Lab1.Repositories/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Lab1.Models": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Lab1.ViewModels.dll": {}
+          "bin/placeholder/Lab1.Repositories.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Lab1.ViewModels.dll": {}
+          "bin/placeholder/Lab1.Repositories.dll": {}
         }
       }
     }
@@ -58,18 +58,20 @@
       "path": "../Lab1.Models/Lab1.Models.csproj",
       "msbuildProject": "../Lab1.Models/Lab1.Models.csproj"
     },
-    "Lab1.ViewModels/1.0.0": {
+    "Lab1.Repositories/1.0.0": {
       "type": "project",
-      "path": "../Lab1.ViewModels/Lab1.ViewModels.csproj",
-      "msbuildProject": "../Lab1.ViewModels/Lab1.ViewModels.csproj"
+      "path": "../Lab1.Repositories/Lab1.Repositories.csproj",
+      "msbuildProject": "../Lab1.Repositories/Lab1.Repositories.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Lab1.ViewModels >= 1.0.0"
+      "Lab1.Models >= 1.0.0",
+      "Lab1.Repositories >= 1.0.0"
     ],
     "net8.0-android34.0": [
-      "Lab1.ViewModels >= 1.0.0"
+      "Lab1.Models >= 1.0.0",
+      "Lab1.Repositories >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -78,11 +80,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/arturnozhenko/Desktop/Lab1/Lab1.Services/Lab1.Services.csproj",
+      "projectUniqueName": "/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1.Services/Lab1.Services.csproj",
       "projectName": "Lab1.Services",
-      "projectPath": "/Users/arturnozhenko/Desktop/Lab1/Lab1.Services/Lab1.Services.csproj",
+      "projectPath": "/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1.Services/Lab1.Services.csproj",
       "packagesPath": "/Users/arturnozhenko/.nuget/packages/",
-      "outputPath": "/Users/arturnozhenko/Desktop/Lab1/Lab1.Services/obj/",
+      "outputPath": "/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1.Services/obj/",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
@@ -100,16 +102,22 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/arturnozhenko/Desktop/Lab1/Lab1.ViewModels/Lab1.ViewModels.csproj": {
-              "projectPath": "/Users/arturnozhenko/Desktop/Lab1/Lab1.ViewModels/Lab1.ViewModels.csproj"
+            "/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1.Models/Lab1.Models.csproj": {
+              "projectPath": "/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1.Models/Lab1.Models.csproj"
+            },
+            "/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1.Repositories/Lab1.Repositories.csproj": {
+              "projectPath": "/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1.Repositories/Lab1.Repositories.csproj"
             }
           }
         },
         "net8.0-android34.0": {
           "targetAlias": "net8.0-android",
           "projectReferences": {
-            "/Users/arturnozhenko/Desktop/Lab1/Lab1.ViewModels/Lab1.ViewModels.csproj": {
-              "projectPath": "/Users/arturnozhenko/Desktop/Lab1/Lab1.ViewModels/Lab1.ViewModels.csproj"
+            "/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1.Models/Lab1.Models.csproj": {
+              "projectPath": "/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1.Models/Lab1.Models.csproj"
+            },
+            "/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1.Repositories/Lab1.Repositories.csproj": {
+              "projectPath": "/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1.Repositories/Lab1.Repositories.csproj"
             }
           }
         }

@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/arturnozhenko/Desktop/Lab1/Lab1Core/Lab1Core.csproj",
+      "projectUniqueName": "/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1Core/Lab1Core.csproj",
       "projectName": "Lab1Core",
-      "projectPath": "/Users/arturnozhenko/Desktop/Lab1/Lab1Core/Lab1Core.csproj",
+      "projectPath": "/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1Core/Lab1Core.csproj",
       "packagesPath": "/Users/arturnozhenko/.nuget/packages/",
-      "outputPath": "/Users/arturnozhenko/Desktop/Lab1/Lab1Core/obj/",
+      "outputPath": "/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1Core/obj/",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [

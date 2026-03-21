@@ -27,7 +27,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Lab1.Services\Lab1.Services.csproj" />
-    <ProjectReference Include="..\Lab1.ViewModels\Lab1.ViewModels.csproj" />
     <ProjectReference Include="..\Lab1.Models\Lab1.Models.csproj" />
   </ItemGroup>
 

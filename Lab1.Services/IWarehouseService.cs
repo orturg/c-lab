@@ -1,14 +1,15 @@
-using Lab1.ViewModels;
+using Lab1.Services.DTO;
 
 namespace Lab1.Services;
 
 /// <summary>
-/// Інтерфейс сервісу для роботи зі складом та товарами
+/// Інтерфейс сервісу для роботи зі складами та товарами
 /// </summary>
 public interface IWarehouseService
 {
-    List<WarehouseViewModel> GetAllWarehouses();
-    WarehouseViewModel? GetWarehouseById(int id);
-    void LoadProductsForWarehouse(WarehouseViewModel warehouse);
-    List<ProductViewModel> GetProductsByWarehouseId(int warehouseId);
+    List<WarehouseListDto> GetAllWarehouses();
+
+    WarehouseDetailDto? GetWarehouseById(int id);
+
+    ProductDetailDto? GetProductById(int warehouseId, int productId);
 }

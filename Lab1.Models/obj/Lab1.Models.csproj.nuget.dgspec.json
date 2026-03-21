@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/arturnozhenko/Desktop/Lab1/Lab1.Models/Lab1.Models.csproj": {}
+    "/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1.Models/Lab1.Models.csproj": {}
   },
   "projects": {
-    "/Users/arturnozhenko/Desktop/Lab1/Lab1.Models/Lab1.Models.csproj": {
+    "/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1.Models/Lab1.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/arturnozhenko/Desktop/Lab1/Lab1.Models/Lab1.Models.csproj",
+        "projectUniqueName": "/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1.Models/Lab1.Models.csproj",
         "projectName": "Lab1.Models",
-        "projectPath": "/Users/arturnozhenko/Desktop/Lab1/Lab1.Models/Lab1.Models.csproj",
+        "projectPath": "/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1.Models/Lab1.Models.csproj",
         "packagesPath": "/Users/arturnozhenko/.nuget/packages/",
-        "outputPath": "/Users/arturnozhenko/Desktop/Lab1/Lab1.Models/obj/",
+        "outputPath": "/Users/arturnozhenko/Documents/naukma/Third Course/C#/Lab1/Lab1.Models/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
