@@ -1,3 +1,4 @@
+using Lab1.Models.Enums;
 using Lab1.Services.DTO;
 
 namespace Lab1.Services;
@@ -7,9 +8,16 @@ namespace Lab1.Services;
 /// </summary>
 public interface IWarehouseService
 {
-    List<WarehouseListDto> GetAllWarehouses();
+    Task<List<WarehouseListDto>> GetAllWarehousesAsync();
+    Task<WarehouseDetailDto?> GetWarehouseByIdAsync(int id);
+    Task<WarehouseFormDto?> GetWarehouseFormAsync(int id);
+    Task<WarehouseListDto> AddWarehouseAsync(string name, WarehouseLocation location);
+    Task UpdateWarehouseAsync(int id, string name, WarehouseLocation location);
+    Task DeleteWarehouseAsync(int id);
 
-    WarehouseDetailDto? GetWarehouseById(int id);
-
-    ProductDetailDto? GetProductById(int warehouseId, int productId);
+    Task<ProductDetailDto?> GetProductByIdAsync(int warehouseId, int productId);
+    Task<ProductFormDto?> GetProductFormAsync(int warehouseId, int productId);
+    Task<ProductListDto> AddProductAsync(int warehouseId, string name, int quantity, decimal unitPrice, ProductCategory category, string description);
+    Task UpdateProductAsync(int warehouseId, int productId, string name, int quantity, decimal unitPrice, ProductCategory category, string description);
+    Task DeleteProductAsync(int warehouseId, int productId);
 }

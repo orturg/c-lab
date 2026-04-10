@@ -19,10 +19,7 @@
     <PackageReference Include="Microsoft.Maui.Controls" Version="8.0.100" />
     <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="8.0.100" />
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Lab1Core\Lab1Core.csproj" />
+    <PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.1.9" />
   </ItemGroup>
 
   <ItemGroup>

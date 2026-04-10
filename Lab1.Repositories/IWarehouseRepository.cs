@@ -7,11 +7,16 @@ namespace Lab1.Repositories;
 /// </summary>
 public interface IWarehouseRepository
 {
-    List<WarehouseModel> GetAllWarehouses();
+    Task<List<WarehouseModel>> GetAllWarehousesAsync();
+    Task<WarehouseModel?> GetWarehouseByIdAsync(int id);
+    Task<List<ProductModel>> GetProductsByWarehouseIdAsync(int warehouseId);
+    Task<ProductModel?> GetProductByIdAsync(int warehouseId, int productId);
 
-    WarehouseModel? GetWarehouseById(int id);
+    Task<WarehouseModel> AddWarehouseAsync(WarehouseModel warehouse);
+    Task UpdateWarehouseAsync(WarehouseModel warehouse);
+    Task DeleteWarehouseAsync(int id);
 
-    List<ProductModel> GetProductsByWarehouseId(int warehouseId);
-
-    ProductModel? GetProductById(int warehouseId, int productId);
+    Task<ProductModel> AddProductAsync(ProductModel product);
+    Task UpdateProductAsync(ProductModel product);
+    Task DeleteProductAsync(int productId);
 }

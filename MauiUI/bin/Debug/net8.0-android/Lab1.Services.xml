@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Lab1.Services</name>
+    </assembly>
+    <members>
+        <member name="T:Lab1.Services.DTO.ProductDetailDto">
+            <summary>
+            DTO для відображення детальної інформації про товар
+            </summary>
+        </member>
+        <member name="T:Lab1.Services.DTO.ProductFormDto">
+            <summary>
+            DTO для форми створення або редагування продукту
+            </summary>
+        </member>
+        <member name="T:Lab1.Services.DTO.ProductListDto">
+            <summary>
+            DTO для відображення товару у списку
+            </summary>
+        </member>
+        <member name="T:Lab1.Services.DTO.WarehouseDetailDto">
+            <summary>
+            DTO для відображення детальної інформації про склад з переліком товарів
+            </summary>
+        </member>
+        <member name="T:Lab1.Services.DTO.WarehouseFormDto">
+            <summary>
+            DTO для форми створення або редагування складу
+            </summary>
+        </member>
+        <member name="T:Lab1.Services.DTO.WarehouseListDto">
+            <summary>
+            DTo для відображення складу у списку
+            </summary>
+        </member>
+        <member name="T:Lab1.Services.IWarehouseService">
+            <summary>
+            Інтерфейс сервісу для роботи зі складами та товарами
+            </summary>
+        </member>
+        <member name="T:Lab1.Services.WarehouseService">
+            <summary>
+            Сервіс для отримання та перетворення даних складів і товарів
+            </summary>
+        </member>
+        <member name="M:Lab1.Services.WarehouseService.#ctor(Lab1.Repositories.IWarehouseRepository)">
+            <summary>
+            Сервіс для отримання та перетворення даних складів і товарів
+            </summary>
+        </member>
+    </members>
+</doc>

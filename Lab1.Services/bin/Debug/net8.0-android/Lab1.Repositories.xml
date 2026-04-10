@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Lab1.Repositories</name>
+    </assembly>
+    <members>
+        <member name="T:Lab1.Repositories.IWarehouseRepository">
+            <summary>
+            Інтерфейс репозиторію для роботи зі складами та товарами
+            </summary>
+        </member>
+        <member name="T:Lab1.Repositories.SqliteWarehouseRepository">
+            <summary>
+            Репозиторій для доступу до даних складів та товарів через sqlite
+            </summary>
+        </member>
+        <member name="M:Lab1.Repositories.SqliteWarehouseRepository.#ctor(System.String)">
+            <summary>
+            Репозиторій для доступу до даних складів та товарів через sqlite
+            </summary>
+        </member>
+    </members>
+</doc>

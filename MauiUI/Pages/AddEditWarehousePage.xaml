@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:MauiUI.ViewModels"
+             x:Class="MauiUI.Pages.AddEditWarehousePage"
+             x:DataType="viewmodels:AddEditWarehouseViewModel"
+             Title="{Binding PageTitle}">
+
+    <Grid RowDefinitions="*,Auto">
+
+        <ScrollView Grid.Row="0">
+            <VerticalStackLayout Padding="16,12" Spacing="16">
+
+                <VerticalStackLayout Spacing="4">
+                    <Label Text="Назва складу" FontAttributes="Bold" />
+                    <Entry Text="{Binding Name}" Placeholder="Введіть назву" />
+                </VerticalStackLayout>
+
+                <VerticalStackLayout Spacing="4">
+                    <Label Text="Місто" FontAttributes="Bold" />
+                    <Picker ItemsSource="{Binding LocationOptions}"
+                            SelectedIndex="{Binding SelectedLocationIndex}" />
+                </VerticalStackLayout>
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <Grid Grid.Row="1" ColumnDefinitions="*,*" ColumnSpacing="8" Margin="16,8">
+            <Button Grid.Column="0" Text="Скасувати"
+                    Command="{Binding CancelCommand}" />
+            <Button Grid.Column="1" Text="Зберегти"
+                    Command="{Binding SaveCommand}" />
+        </Grid>
+
+        <ActivityIndicator Grid.RowSpan="2"
+                           IsRunning="{Binding IsBusy}"
+                           IsVisible="{Binding IsBusy}"
+                           HorizontalOptions="Center" VerticalOptions="Center" />
+
+        <Grid Grid.RowSpan="2" IsVisible="{Binding IsBusy}"
+              BackgroundColor="#80000000" InputTransparent="False" />
+
+    </Grid>
+
+</ContentPage>

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MauiUI</name>
+    </assembly>
+    <members>
+        <member name="T:MauiUI.AppShell">
+            <summary>
+            Головна оболонка застосунку, яка відповідає за реєстраці маршрутів shell навігації
+            </summary>
+        </member>
+        <member name="T:MauiUI.MauiProgram">
+            <summary>
+            Точка входу maui
+            </summary>
+        </member>
+        <member name="T:MauiUI.ViewModels.AddEditProductViewModel">
+            <summary>
+            VM для сторінки створення та редагування товару
+            </summary>
+        </member>
+        <member name="T:MauiUI.ViewModels.AddEditWarehouseViewModel">
+            <summary>
+            VM для сторінки створення та редагування складу
+            </summary>
+        </member>
+        <member name="T:MauiUI.ViewModels.BaseViewModel">
+            <summary>
+            Базовий клас ViewModel 
+            </summary>
+        </member>
+        <member name="T:MauiUI.ViewModels.ProductDetailViewModel">
+            <summary>
+            vm для сторінки детальної інформації про товар
+            </summary>
+        </member>
+        <member name="T:MauiUI.ViewModels.WarehouseDetailViewModel">
+            <summary>
+            vm для сторінки деталей складу з переліком товарів
+            </summary>
+        </member>
+        <member name="T:MauiUI.ViewModels.WarehousesViewModel">
+            <summary>
+            Vm для сторінки списку складів
+            </summary>
+        </member>
+    </members>
+</doc>

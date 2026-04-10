@@ -1,7 +1,7 @@
 namespace Lab1.Services.DTO;
 
 /// <summary>
-/// DTO для відображення складу у списку
+/// DTo для відображення складу у списку
 /// </summary>
 public class WarehouseListDto
 {
